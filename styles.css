@@ -1,81 +1,171 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 20px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  .producto {
-    display: inline-block;
-    width: 30%;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .producto img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  
-  .producto a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .producto a:hover {
-    background-color: #0056b3;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-  }
-    
-  #nuevas-tecnologias h3 {
-    color: #0056b3;
-    font-size: 1.5em;
-    margin-top: 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.producto {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+.producto img {
+  width: 120%;
+  height: 400px; 
+  border-radius: 8px;
+  object-fit: cover;
+
+}
+
+.producto a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.producto a:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+  
+#nuevas-tecnologias h3 {
+  color: #0056b3;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+body.actualizaciones {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd; 
+}
+
+body.actualizaciones header {
+  background-color: #1976d2; 
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+body.actualizaciones nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+body.actualizaciones nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+body.actualizaciones nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+body.actualizaciones section {
+  margin: 20px auto; 
+  padding: 25px;
+  background-color: #ffffff; 
+  border-radius: 12px;
+  max-width: 800px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-left: 5px solid #1976d2; 
+  text-align: center;
+}
+
+body.actualizaciones h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #1976d2; 
+  margin-bottom: 15px;
+}
+
+body.actualizaciones ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+body.actualizaciones ul li {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+body.actualizaciones ul li strong {
+  color: #333;
+}
+
+body.actualizaciones a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #ff6f61; 
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+body.actualizaciones a:hover {
+  background-color: #e53935; 
+}
+
+body.actualizaciones footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #1976d2;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3); 
+}
 
