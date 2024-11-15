@@ -141,6 +141,22 @@ footer {
   background-color: #1565c0;
 }
 
+.registro-container .registration-form .back-to-index {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff6f61; 
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.registro-container .registration-form .back-to-index:hover {
+  background-color: #e53935; 
+}
+
 /* Estilos de la página de actualizaciones */
 body.actualizaciones {
   font-family: Arial, sans-serif;
